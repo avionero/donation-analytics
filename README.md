@@ -64,7 +64,7 @@ Path of the diferent files handle by the application are define in the main.py. 
 when execute the the test1. So you can modify the file location as needed in the main.py 
 
 To run the program execute the run.sh script with the following command within the project directory:
-	#### /run.sh
+#### ./run.sh
 
   ### percentile: ../input/percentile.txt
   ### itcont: ../input/itcont.txt
