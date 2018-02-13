@@ -26,7 +26,7 @@ The main aspect that we look to addres with the sepration of concers are the fol
 	## Calculation 
 	## Processing
 	
-![donators-analytics-arch](https://drive.google.com/file/d/1vcnL3nouz8ouiKWdVkVpPv4GvqRTvUTN/view?usp=sharing)
+![donators-analytics-arch](https://github.com/avionero/donation-analytics/blob/master/images/donator-analytics-arch.PNG)
 
 
 # Configurations
