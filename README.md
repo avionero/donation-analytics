@@ -12,8 +12,9 @@
 This is the code develope fo the Insight challenge were was to build a service to calculate the percentile and other values for committees 
 that have receive donations from repeated donors. 
 
-I want to let you know that wining the opportunity to participate within your intership or not this challenge as been a grerat practice to my
-experince with the data science. For me the challage has been way to improve in my python skills that in the last month i have been study and develop.
+I want to let you know that wining the opportunity to participate within your intership or not this challenge as been a grerat 
+practice to my experince with the data science. For me the challage has been way to improve in my python skills that in the last 
+month i have been study and develop which is a great win.
 
 Thanks for the opportunity and have a great analysis.
 
