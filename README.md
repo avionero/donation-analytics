@@ -14,11 +14,11 @@ that have receive donations from repeated donors.
 
 # Architecture
 
-For the soluction we have dived the data processing in diferent function to be able to reuse and separarte from different concerns. This allow 
-to improve the quality of the services in the future and facilitateded the mainteinability. We have create two main file the main.py 
-and the util.py in which we separate the overall processing from the reusable fucntions.
+For the soluction we have dived the data processing in diferent functions to be able to reuse and separarte from different concerns. 
+This allow improve the quality of services and facilitateded the mainteinability. We have create two main file the main.py 
+and the util.py in which we separate the overall processing from the reusable functions.
 
-The main aspect that we look to addres with the sepration of concers are the follwing: 
+The main aspect that we look to address with the sepration of concers approch are: 
 	
 	## Load Configuration
 	## Load Data 
@@ -54,11 +54,6 @@ The directory structure of the project develope:
             |   │   └── itcont.txt
             |   |__ output
             |   │   └── repeat_donors.txt
-            ├── your-own-test_1
-                ├── input
-                │   └── your-own-input-for-itcont.txt
-                |── output
-                    └── repeat_donors.txt
 					
 # Configurations and Execution
 
