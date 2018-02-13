@@ -63,8 +63,7 @@ The directory structure of the project develope:
 Path of the diferent files handle by the application are define in the main.py. We have see there is an issue handling the relative path
 when execute the the test1. So you can modify the file location as needed in the main.py 
 
-To run the program execute the run.sh script with the following command within the project directory:
-#### ./run.sh
+To run the program execute the run.sh script with the following command within the project directory: ####./run.sh
 
   ### percentile: ../input/percentile.txt
   ### itcont: ../input/itcont.txt
