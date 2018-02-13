@@ -4,7 +4,6 @@ import numpy as np
 import math as mt
 import os
 
-
 # Add some extra indentation on the conditional continuation line
 def load_donations(path):
     '''
@@ -36,6 +35,12 @@ def load_donations(path):
 def load_percentile_param(config_file_path):
     with open(os.path.abspath(config_file_path), 'r') as config_file:
         percentile_param = config_file.read().rstrip("\n")
+    return percentile_param
+
+def load_path_param():
+    percentile_param = pd.Series({'1': '', '2': '', '3': ''})
+    with open(os.path.abspath('./src/path_config'), 'r') as config_file:
+        percentile_param = config_file.read().splitlines()
     return percentile_param
 
 

@@ -5,9 +5,13 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 import src.util as ut
 
 def main():
-    donation_input_path = "../../input/itcont.txt"
-    percentile_input_path = "../../input/percentile.txt"
-    repeat_donors_output_path = "../../output/repeat_donors.txt"
+
+    path_params = ut.load_path_param()
+    print(path_params)
+
+    donation_input_path = path_params[0] #"../../input/itcont.txt"
+    percentile_input_path = path_params[1] #"../../input/percentile.txt"
+    repeat_donors_output_path = path_params[2] #"../../output/repeat_donors.txt"
 
     #set load data and configurations
     donations_df = ut.load_donations(donation_input_path)

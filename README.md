@@ -35,7 +35,9 @@ The directory structure of the project develope:
     ├── README.md 
     ├── run.sh
     ├── src
-    │   └── donation-analytics.py
+    │   └── main.py
+    │   └── util.py	
+    │   └── path_config(.txt file)
 	├── images
     │   └── donator-analytics-arch.png
     ├── input
@@ -58,17 +60,20 @@ The directory structure of the project develope:
                 |── output
                     └── repeat_donors.txt
 					
-# Configurations
+# Configurations and Execution
 
-Path of the diferent files handle by the application are define in the main.py. We have see there is an issue handling the relative path
-when execute the the test1. So you can modify the file location as needed in the main.py 
+To run the program configure the input, parameters and output file path and then execute the run.sh script with the following 
+command, "./run.sh", within the project directory.
 
-To run the program execute the run.sh script with the following command within the project directory: #### ./run.sh
+Each path in the path_config should be in a separed line and in the same order show below.
 
-  ### percentile: ../input/percentile.txt
-  ### itcont: ../input/itcont.txt
-  ### repeat_donors: ../input/repeat_donors.txt
+  ### itcont: C:\Users\elix\IdeaProjects\projectsBase\input\itcont.txt
+  ### percentile: C:\Users\elix\IdeaProjects\projectsBase\input\percentile.txt
+  ### repeat_donors: C:\Users\elix\IdeaProjects\projectsBase\output\repeat_donors.txt
   
+#### Note: 
+We have see there is an issue handling the relative path. Feel free to modify the path_config content as you needed or setting
+in the util.py how the program load the that parametes data. See line 42 of the util.py.
   
 ##### Sample Data
 
