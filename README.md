@@ -5,6 +5,7 @@
 4. [Configuration](README.md#configuration)
 5. [Sample Data](README.md#sample-data)
 6. [Result](README.md#result)
+7. [Author](README.md#author)
 
 
 # Introduction
@@ -99,3 +100,6 @@ This below image show the result after execute the project with the run.sh which
 
 ![donators-analytics-result](https://github.com/avionero/donation-analytics/blob/master/images/donator-analytics-result.PNG)
 
+# Author
+
+Felix Lopes - prtechs@gmail.com
