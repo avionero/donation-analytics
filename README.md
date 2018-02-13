@@ -29,7 +29,7 @@ The main aspect that we look to addres with the sepration of concers are the fol
 ![donators-analytics-arch](https://drive.google.com/open?id=1DBm8hJZHdXNCQLwNYPdlNfqQ-QHOv0Wg)
 
 
-# Configuration
+# Configurations
 
 Path of the diferent files handle by the application are define in the main.py. We have see there is an issue handling the relative path
 when execute the the test1. So you can modify the file location as needed in the main.py 
