@@ -1,9 +1,10 @@
 # Table of Contents
 1. [Summary](README.md#introduction)
 2. [Architecture](README.md#architecture)
-3. [Configuration](README.md#configuration)
-4. [Project Structure](README.md#project-structure)
+3. [Project Structure](README.md#project-structure)
+4. [Configuration](README.md#configuration)
 5. [Sample Data](README.md#sample-data)
+6. [Result](README.md#result)
 
 
 # Introduction
@@ -27,17 +28,6 @@ The main aspect that we look to addres with the sepration of concers are the fol
 	## Processing
 	
 ![donators-analytics-arch](https://github.com/avionero/donation-analytics/blob/master/images/donator-analytics-arch.PNG)
-
-
-# Configurations
-
-Path of the diferent files handle by the application are define in the main.py. We have see there is an issue handling the relative path
-when execute the the test1. So you can modify the file location as needed in the main.py 
-
-  ### percentile: ../input/percentile.txt
-  ### itcont: ../input/itcont.txt
-  ### repeat_donors: ../input/repeat_donors.txt
-  
 
 # Project Structure
 The directory structure of the project develope:
@@ -68,7 +58,19 @@ The directory structure of the project develope:
                 |── output
                     └── repeat_donors.txt
 					
+# Configurations
 
+Path of the diferent files handle by the application are define in the main.py. We have see there is an issue handling the relative path
+when execute the the test1. So you can modify the file location as needed in the main.py 
+
+To run the program execute the run.sh script with the following command within the project directory:
+	#### /run.sh
+
+  ### percentile: ../input/percentile.txt
+  ### itcont: ../input/itcont.txt
+  ### repeat_donors: ../input/repeat_donors.txt
+  
+  
 ##### Sample Data
 
 **`percentile.txt`**
@@ -85,3 +87,10 @@ The directory structure of the project develope:
 **`repeat_donors.txt`**
 
     C00384516|02895|2017|230|230|1
+	
+# Result
+
+This below image show the result after execute the project with the run.sh which should execute the main.py. 
+
+![donators-analytics-result](https://github.com/avionero/donation-analytics/blob/master/images/donator-analytics-result.PNG)
+
