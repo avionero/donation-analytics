@@ -40,12 +40,14 @@ when execute the the test1. So you can modify the file location as needed in the
   
 
 # Project Structure
-The directory structure for your repo should look like this:
+The directory structure of the project develope:
 
     ├── README.md 
     ├── run.sh
     ├── src
     │   └── donation-analytics.py
+	├── images
+    │   └── donator-analytics-arch.png
     ├── input
     │   └── percentile.txt
     │   └── itcont.txt
