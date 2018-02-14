@@ -64,18 +64,15 @@ The directory structure of the project develope:
 					
 # Configurations and Execution
 
-To run the program configure the input, parameters and output file path and then execute the run.sh script with the following 
-command, "./run.sh", within the project directory.
+To run the program configure the file path as input parameters inside the run.sh script and execute it with the following command, "./run.sh",
+within the project directory.
 
-Each path in the path_config should be in a separed line and in the same order show below.
+Each path in the run.sh script should be define as follow and in same order as show below.
 
-  ### itcont: C:\Users\elix\IdeaProjects\projectsBase\input\itcont.txt
-  ### percentile: C:\Users\elix\IdeaProjects\projectsBase\input\percentile.txt
-  ### repeat_donors: C:\Users\elix\IdeaProjects\projectsBase\output\repeat_donors.txt
+  ### itcont: ./input/itcont.txt
+  ### percentile: ./input/percentile.txt
+  ### repeat_donors: ./output/repeat_donors.txt
   
-#### Note: 
-We have see there is an issue handling the relative path. Feel free to modify the path_config content as you needed or setting
-in the util.py how the program load the that parametes data. See line 42 of the util.py.
   
 ##### Sample Data
 

@@ -6,8 +6,8 @@ import src.util as ut
 
 def main():
 
-    path_params = ut.load_path_param()
-    print(path_params)
+    path_params = sys.argv[1:] #ut.load_path_param()
+    #print(path_params)
 
     donation_input_path = path_params[0] #"../../input/itcont.txt"
     percentile_input_path = path_params[1] #"../../input/percentile.txt"
