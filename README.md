@@ -25,7 +25,7 @@ For the soluction we have dived the data processing in diferent functions to be 
 This allow improve the quality of services and facilitateded the mainteinability. We have create two main file the main.py 
 and the util.py in which we separate the overall processing from the reusable functions.
 
-The main aspect that we look to address with the sepration of concers approch are: 
+The main aspect that we look to address with the sepration of concers approach are: 
 	
 	## Load Configuration
 	## Load Data 
@@ -94,7 +94,7 @@ Each path in the run.sh script should be define as follow and in same order as s
 	
 # Result
 
-This below image show the result after execute the project with the run_tests.sh which should execute the main project. 
+The below image despict the successful test result after execute the project with the run_tests.sh which execute the main project. 
 
 ![donators-analytics-result](https://github.com/avionero/donation-analytics/blob/master/images/donator-analytics-result.PNG)
 
