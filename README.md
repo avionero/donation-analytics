@@ -47,6 +47,7 @@ The directory structure of the project develope:
     │   └── path_config(.txt file)
 	├── images
     │   └── donator-analytics-arch.png
+	│   └── donator-analytics-result.png
     ├── input
     │   └── percentile.txt
     │   └── itcont.txt
@@ -93,7 +94,7 @@ Each path in the run.sh script should be define as follow and in same order as s
 	
 # Result
 
-This below image show the result after execute the project with the run.sh which should execute the main.py. 
+This below image show the result after execute the project with the run_tests.sh which should execute the main project. 
 
 ![donators-analytics-result](https://github.com/avionero/donation-analytics/blob/master/images/donator-analytics-result.PNG)
 
